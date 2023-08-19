@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            
+            <meta charset="utf-8">
+            <title> 
+                   Admin Log In
+            </title>
+    </head>
+    <body style="background-image: ('meeting.png')">
+            <p>
+                    <h1>Admin id</h1>
+                    <input type="text" id="id">
+                    <br>
+                    <br>
+                    <h1>Password</h1>
+                    <input type="text" id="password">
+            </p>
+            <p><button id="id1"><a href="submit.html">Submit</a>
+
+            </button></p>
+            <script type="text/javascript">
+            
+            document.getElementById("id1").onclick=function(){
+                    var adminid = document.getElementById("id").value;
+                    var aid = "hps3";
+                    if(adminid==aid){
+
+                    }
+                    else{
+                            alert("invalid id");
+                    }
+                   
+            }
+            </script>
+       
+    </body>
+    </html>
